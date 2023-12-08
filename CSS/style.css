@@ -1,0 +1,50 @@
+/* Global */
+:root {
+    /* App Colors */
+    --color-primary: var(--color-black);
+    --color-primary-variant: var(--color-gray);
+    --color-accent: var(--color-blue);
+    --color-accent-variant: var(--color-orange);
+    --color-text: var(--color-white);
+
+    /* Colors */
+    --color-white: #ffffff;
+    --color-black: #050a13;
+    --color-blue: #03e8f9;
+    --color-orange: #fd6413;
+    --color-gray: #1b1e26;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* 오픈산스가 에러날경우에 산스세리프로 */
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,p,ul{
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    /* 링크 밑줄 지우기 */
+    text-decoration: none; 
+    color: var(--color-text);
+}
+
+button {
+    background-color: transparent;
+    outline : 0;
+    border : 0;
+}
+
+button:focus {
+    outline: 1px solid var(--color-accent);
+}
