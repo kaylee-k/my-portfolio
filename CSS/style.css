@@ -226,7 +226,54 @@ margin: auto;
     color: var(--color-primary);
     font-size: 0.85rem;
 }
+
 .job__period{
     color: var(--color-primary);
     font-size: 0.8rem;
+}
+
+/* Skills */
+#Skills {
+    background-color: var(--color-primary-variant);
+    color: var(--color-text);
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    margin: 2rem 3rem;
+    border-radius: 8px;
+    /* 위에서 둥글게 박스를 만들어줬는데 실행해보면
+    그대로 뾰족한 박스이다. 그 이유는 skills__coding에서
+    백그라운드컬러(프라이머리)가 삐져나와서 그렇기때문에
+    오버플로우-히든을 써주면서 삐져나온부분을 hidden시킨다
+    그리드인경우 이런상황이 발생할수있음 */
+    overflow: hidden;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 
+    0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.skills__title{
+    color: var(--color-accent);
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.skills__coding{
+    grid-row: span 2;
+    padding: 1rem;
+    background-color: var(--color-primary);
+}
+
+.skills__tools{
+    padding: 1rem;
+}
+
+.skills__etc{
+    padding: 1rem;
+    background-color: var(--color-primary);
+    /* 프라이머리컬러의 150% 더밝게 해주기 */
+    filter: brightness(150%);
 }
