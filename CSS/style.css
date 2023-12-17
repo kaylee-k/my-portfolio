@@ -460,6 +460,7 @@ margin: auto;
     border-radius: 100%;
     text-align: center;
     box-shadow: 3px 3px 0px 0px var(--color-accent);
+    transition: opacity 300ms ease-in;
 }
 
 
