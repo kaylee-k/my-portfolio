@@ -23,6 +23,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /* 오픈산스가 에러날경우에 산스세리프로 */
     font-family: 'Open Sans', sans-serif;
