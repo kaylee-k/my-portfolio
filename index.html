@@ -12,8 +12,8 @@
     <!-- OG (Open Graph Data) -->
     <meta property="og:title" content="Kaylee's Portfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kaylee-k.github.io/portfolio/">
-    <meta property="og:image" content="https://kaylee-k.github.io/portfolio/images/og.webp">
+    <meta property="og:url" content="https://kaylee-k.github.io/portfolio/"/>
+    <meta property="og:image" content="https://kaylee-k.github.io/portfolio/images/og.webp"/>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,12 +23,15 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/62da3082d3.js" crossorigin="anonymous"
     ></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/style.css">
     <!-- Javascript -->
     <script  type="module" src="src/main.js" defer></script>
     <script  type="module" src="src/projects.js" defer></script>
     <script  type="module" src="src/active_menu.js" defer></script>
+    <script  type="module" src="src/type.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -55,12 +58,23 @@
     <main>
         <!-- Home -->
         <section id="Home">
-            <div class="home__container">
-                <img class="home__avatar" src="images/Profile.png" alt="Kaylee's profile" />
-                <h2 class="home__title">Hello <br />I&#39;m <strong class="home__title--strong">Full Stack Developer</strong>, Kaylee</h2>
-                <p class="home__description">A software engineer currently residing in Lakewood, Colorado</p>
+            <div class="max-container home__container">
+                <img 
+                  class="home__avatar" 
+                  src="images/Profile.png" 
+                  alt="Kaylee's profile" 
+                  />
+                  <div>
+                <h2 class="home__title" aria-label="Hello, I'm Full Stack Engineer, Kaylee">
+                    Hello <br />I&#39;m 
+                    <strong class="home__title--strong">Engineer</strong>, Kaylee
+                </h2>
+                <p class="home__description">
+                    A software engineer currently residing in Lakewood, Colorado
+                </p>
                 <a class="home__contact" href="#Contact">Contact Me</a>
-            </div>
+                </div>
+             </div>
         </section>
         <!-- About Me -->
         <section id="About" class="section max-container">
@@ -318,7 +332,7 @@
         </aside>
     </main>
     <!-- Footer -->
-    <footer id="Contact" class="section">
+    <footer id="Contact" class="section">  
        <div class="max-container">
         <h2 class="title">Let&#39;s talk</h2>
         <p class="description">kaylee.kihm@gmail.com</p>
