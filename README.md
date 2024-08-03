@@ -1,7 +1,7 @@
 # Kaylee's Portfolio 
 <img width="623" alt="portfolio" src="https://github.com/kaylee-k/Portfolio/assets/151891463/2a976c1f-921d-48f2-887e-9f5f6f1857c4">
 
-[Click ➡️ ] https://kaylee-k.github.io/my-portfolio/
+Click to view the live project ➡️ https://kaylee-k.github.io/my-portfolio/
 
 ## Description
 
