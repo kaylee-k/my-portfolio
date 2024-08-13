@@ -1,5 +1,5 @@
 # Kaylee's Portfolio 🖥️
-<img width="623" alt="portfolio" src="https://github.com/kaylee-k/Portfolio/assets/151891463/2a976c1f-921d-48f2-887e-9f5f6f1857c4">
+<img width="1172" alt="Screenshot 2024-08-13 at 5 25 23 PM" src="https://github.com/user-attachments/assets/bad3c167-ecb0-4882-9aeb-7bc9de38d8e1">
 
 
 ## Description
@@ -28,5 +28,5 @@ Each project is presented with high-resolution images, detailed descriptions, an
   - `Dynamic Content Loading`: Project information is dynamically loaded and displayed based on user interaction, providing a responsive and engaging experience.
 
 ## Live Demo
-Click to view the live project ➡️ https://kaylee-k.github.io/my-portfolio/
+Click here to view the live project ➡️ https://kaylee-k.github.io/my-portfolio/
 
