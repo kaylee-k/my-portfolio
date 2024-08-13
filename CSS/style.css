@@ -25,6 +25,7 @@
   --color-green: #d1fc3d;
   --color-yellow: #febf3d;
   --color-pink: #fe6d7a;
+  --color-light-gray: #798080;
 
   /* Size */
   --size-max-width: 1200px;
@@ -506,6 +507,15 @@ button:focus {
   font-weight: bold;
   filter: brightness(70%);
 }
+
+.testimonial__text {
+  margin: 5px;
+}
+
+.testimonial__description {
+  color: var(--color-light-gray);
+}
+
 /* Arrow up */
 .arrow-up {
   background-color: var(--color-primary);
