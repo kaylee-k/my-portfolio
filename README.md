@@ -1,10 +1,10 @@
 # Kaylee's Portfolio 🖥️
-<img width="1172" alt="Screenshot 2024-08-13 at 5 25 23 PM" src="https://github.com/user-attachments/assets/bad3c167-ecb0-4882-9aeb-7bc9de38d8e1">
+<img width="1023" alt="Screenshot 2024-09-06 at 8 48 11 PM" src="https://github.com/user-attachments/assets/f2830ceb-be18-4516-838f-00a7f1cd3787">
 
 
 ## Description
 
-Welcome to my portfolio! I'm a dedicated software engineer with skills in front-end, mobile, and back-end development. This portfolio highlights my various projects and the different skills I've developed. Each project shows my focus on writing clean code, finding efficient solutions, and creating impactful designs.
+Welcome to my portfolio! This portfolio highlights my various projects and the different skills I've developed. Each project shows my focus on writing clean code, finding efficient solutions, and creating impactful designs.
 
 ## Features
 
